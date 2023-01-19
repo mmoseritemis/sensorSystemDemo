@@ -6,11 +6,13 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" />
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
   </facets>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">94563f7d-46d1-4858-8f0f-ab0bd93dc06c(ISO21434)</dependency>
+    <dependency reexport="true">94563f7d-46d1-4858-8f0f-ab0bd93dc06c(ISO21434)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="5" />
